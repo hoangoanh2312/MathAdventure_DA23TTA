@@ -29,5 +29,12 @@ namespace MathAdventure.Player
             }
             return true;
         }
+
+        public void RestoreFull()
+        {
+            CurrentHealth = maxHealth;
+            invulnerableUntil = Time.time + invulnerabilitySeconds;
+            OnHealthChanged?.Invoke(CurrentHealth, maxHealth);
+        }
     }
 }

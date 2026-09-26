@@ -1,0 +1,405 @@
+fileFormatVersion: 2
+guid: cd5e0549e8ef56b49a96c502cf26d7c1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8980172538227845936
+    second: GoldCoin.png_0
+  - first:
+      213: 2734805831127074134
+    second: GoldCoin.png_1
+  - first:
+      213: -7098999240572090148
+    second: GoldCoin.png_2
+  - first:
+      213: 167117831066464740
+    second: GoldCoin.png_3
+  - first:
+      213: 1411679230790247927
+    second: GoldCoin.png_4
+  - first:
+      213: -1870291454968967960
+    second: GoldCoin.png_5
+  - first:
+      213: -488105881838870216
+    second: GoldCoin.png_6
+  - first:
+      213: -4509215579192030674
+    second: GoldCoin.png_7
+  - first:
+      213: -6453164024484356947
+    second: GoldCoin.png_8
+  - first:
+      213: 3245698118312605725
+    second: GoldCoin.png_9
+  - first:
+      213: 3111884866134019302
+    second: GoldCoin.png_10
+  - first:
+      213: 2091480471277475822
+    second: GoldCoin.png_11
+  - first:
+      213: -478035152039444591
+    second: GoldCoin.png_12
+  - first:
+      213: 2783021627651802926
+    second: GoldCoin.png_13
+  - first:
+      213: 1043781536996276975
+    second: GoldCoin.png_14
+  - first:
+      213: -6013433674583547741
+    second: GoldCoin.png_15
+  - first:
+      213: 2947506250659100061
+    second: GoldCoin.png_16
+  - first:
+      213: -7793906289388187817
+    second: GoldCoin.png_17
+  - first:
+      213: 4414011027815474919
+    second: GoldCoin.png_18
+  - first:
+      213: -2467929292564906631
+    second: GoldCoin.png_19
+  - first:
+      213: -123503170632489648
+    second: GoldCoin.png_20
+  - first:
+      213: 7066562652951335923
+    second: GoldCoin.png_21
+  - first:
+      213: -8316283666881226558
+    second: GoldCoin.png_22
+  - first:
+      213: -2975351808166649307
+    second: GoldCoin.png_23
+  - first:
+      213: -8733010078975825133
+    second: GoldCoin.png_24
+  - first:
+      213: -3392760004550845965
+    second: GoldCoin.png_25
+  - first:
+      213: 3326793915474725424
+    second: GoldCoin.png_26
+  - first:
+      213: -7861748446225957518
+    second: GoldCoin.png_27
+  - first:
+      213: 8914033456748318782
+    second: GoldCoin.png_28
+  - first:
+      213: -757654857239193616
+    second: GoldCoin.png_29
+  - first:
+      213: -6561080247426339159
+    second: GoldCoin.png_30
+  - first:
+      213: -7607833530213267727
+    second: GoldCoin.png_31
+  - first:
+      213: -620294903953271487
+    second: GoldCoin.png_32
+  - first:
+      213: 8317646389633302486
+    second: GoldCoin.png_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Coin_Frame_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 233
+        width: 288
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1a401122a4b4243bce7f6dc9edd38e
+      internalID: 349986416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Frame_1
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 233
+        width: 224
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b813c486d17d5004085fccf13261f602
+      internalID: -2018205503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Frame_2
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 233
+        width: 189
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81683dd2a21a754eac7624a46cd1460
+      internalID: -1319205562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Frame_3
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 233
+        width: 135
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc874c7fb5846d4bb9845a93871e03f
+      internalID: -1943076522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Frame_4
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 233
+        width: 156
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96063ba7f2fd9fa4695b2ba1733bf9d8
+      internalID: 1870766051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Frame_5
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 233
+        width: 197
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a889b83cfff564459b2eeac1a6e160b
+      internalID: 1661393564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Frame_6
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 233
+        width: 237
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ba34e07f4d9db41923693f3e652482
+      internalID: 1944412163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_Frame_7
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 233
+        width: 288
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49de1c7e9497ed49bf6907a67b68557
+      internalID: 979718603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 974c7282dc8978c429816781ff35e595
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Coin_Frame_0: 349986416
+      Coin_Frame_1: -2018205503
+      Coin_Frame_2: -1319205562
+      Coin_Frame_3: -1943076522
+      Coin_Frame_4: 1870766051
+      Coin_Frame_5: 1661393564
+      Coin_Frame_6: 1944412163
+      Coin_Frame_7: 979718603
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

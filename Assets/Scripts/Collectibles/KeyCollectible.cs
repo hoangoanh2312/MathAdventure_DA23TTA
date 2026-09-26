@@ -9,6 +9,7 @@ namespace MathAdventure.Collectibles
         {
             if (GameManager.Instance == null) return false;
             GameManager.Instance.AddKey();
+            GameEvents.RaiseKeyCollected();
             return true;
         }
     }

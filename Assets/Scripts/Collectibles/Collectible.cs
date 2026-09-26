@@ -11,7 +11,10 @@ namespace MathAdventure.Collectibles
         {
             if (collected || !other.CompareTag("Player") || !Grant(other.gameObject)) return;
             collected = true;
-            gameObject.SetActive(false);
+            var collider = GetComponent<Collider2D>();
+            if (collider != null) collider.enabled = false;
+            if (TryGetComponent<CollectibleVisual>(out var visual)) visual.PlayCollected(() => gameObject.SetActive(false));
+            else gameObject.SetActive(false);
         }
         protected virtual void Reset() => GetComponent<Collider2D>().isTrigger = true;
     }

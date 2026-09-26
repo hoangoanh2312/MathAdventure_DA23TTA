@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using MathAdventure.Core;
 
 namespace MathAdventure.Player
 {
@@ -21,7 +22,12 @@ namespace MathAdventure.Player
 
         private void OnEnable() => moveAction.Enable();
         private void OnDisable() => moveAction.Disable();
-        private void Update() => MoveInput = Vector2.ClampMagnitude(moveAction.ReadValue<Vector2>(), 1f);
+        private void Update()
+        {
+            MoveInput = GameManager.Instance == null || GameManager.Instance.State == GameState.Playing
+                ? Vector2.ClampMagnitude(moveAction.ReadValue<Vector2>(), 1f)
+                : Vector2.zero;
+        }
         private void FixedUpdate() => body.linearVelocity = MoveInput * moveSpeed;
     }
 }

@@ -11,6 +11,7 @@ namespace MathAdventure.Collectibles
         {
             if (GameManager.Instance == null) return false;
             GameManager.Instance.AddCoin(score, gold);
+            GameEvents.RaiseCoinCollected();
             return true;
         }
     }

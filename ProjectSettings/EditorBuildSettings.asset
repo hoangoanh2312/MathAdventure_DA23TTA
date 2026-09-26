@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FoundationTest.unity
     guid: 05b05fde52c9f1a4f86a31b7ff73a4dd
+  - enabled: 1
+    path: Assets/Scenes/Island01.unity
+    guid: fd5df2e87ba35a940894129b93b45c7d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

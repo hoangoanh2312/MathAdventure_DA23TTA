@@ -3,6 +3,7 @@ using MathAdventure.Interaction;
 using MathAdventure.UI;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using MathAdventure.Core;
 
 namespace MathAdventure.Player
 {
@@ -15,17 +16,26 @@ namespace MathAdventure.Player
         private void Awake()
         {
             interactAction = new InputAction("Interact", InputActionType.Button, "<Keyboard>/e");
-            if (promptUI == null) promptUI = FindFirstObjectByType<InteractionPromptUI>();
+            if (promptUI == null) promptUI = FindAnyObjectByType<InteractionPromptUI>();
         }
         private void OnEnable() { interactAction.performed += OnInteract; interactAction.Enable(); }
         private void OnDisable() { interactAction.performed -= OnInteract; interactAction.Disable(); }
         private void Update()
         {
+            if (GameManager.Instance != null && GameManager.Instance.State != GameState.Playing)
+            {
+                if (promptUI != null) promptUI.SetPrompt(false, string.Empty);
+                return;
+            }
             nearby.RemoveAll(item => item == null || !item.CanInteract);
             var target = nearby.Count > 0 ? nearby[^1] : null;
             if (promptUI != null) promptUI.SetPrompt(target != null, target?.PromptText ?? string.Empty);
         }
-        private void OnInteract(InputAction.CallbackContext _) { if (nearby.Count > 0 && nearby[^1].CanInteract) nearby[^1].Interact(); }
+        private void OnInteract(InputAction.CallbackContext _)
+        {
+            if (GameManager.Instance != null && GameManager.Instance.State != GameState.Playing) return;
+            if (nearby.Count > 0 && nearby[^1].CanInteract) nearby[^1].Interact();
+        }
         private void OnTriggerEnter2D(Collider2D other)
         {
             foreach (var behaviour in other.GetComponents<MonoBehaviour>()) if (behaviour is IInteractable item && !nearby.Contains(item)) nearby.Add(item);

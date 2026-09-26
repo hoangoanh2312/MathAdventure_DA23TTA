@@ -1,0 +1,627 @@
+fileFormatVersion: 2
+guid: 1a3182943b63208449c9dfc13b0565a5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5964365678989773775
+    second: PirateCat_Animation.png_0
+  - first:
+      213: -3749886285009753944
+    second: PirateCat_Animation.png_1
+  - first:
+      213: 7390953640670145573
+    second: PirateCat_Animation.png_2
+  - first:
+      213: 3523801905617797356
+    second: PirateCat_Animation.png_3
+  - first:
+      213: -4542611272837072625
+    second: PirateCat_Animation.png_4
+  - first:
+      213: -7698777533160810367
+    second: PirateCat_Animation.png_5
+  - first:
+      213: -5925758670380598895
+    second: PirateCat_Animation.png_6
+  - first:
+      213: 5659986982369857808
+    second: PirateCat_Animation.png_7
+  - first:
+      213: -1922045965237042945
+    second: PirateCat_Animation.png_8
+  - first:
+      213: -6726529471415377308
+    second: PirateCat_Animation.png_9
+  - first:
+      213: -6444138091157446911
+    second: PirateCat_Animation.png_10
+  - first:
+      213: 4454354985501864759
+    second: PirateCat_Animation.png_11
+  - first:
+      213: 6252387533563225692
+    second: PirateCat_Animation.png_12
+  - first:
+      213: -8214236169173699372
+    second: PirateCat_Animation.png_13
+  - first:
+      213: 6215207225544245110
+    second: PirateCat_Animation.png_14
+  - first:
+      213: 8177614542485130233
+    second: PirateCat_Animation.png_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pirate_IdleDown_0
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 893
+        width: 243
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c6d87840169344d9501c9e5b6ec0e7
+      internalID: 1291342238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_IdleDown_1
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 893
+        width: 236
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69936b8a2f615644dbb645447bb3d500
+      internalID: 963203066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_IdleDown_2
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 893
+        width: 239
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2596b93243f0747827cb2f6289923a
+      internalID: 1404640364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_IdleDown_3
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 893
+        width: 240
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58eb6a2393682c949bd18bb4130a886c
+      internalID: 1800281756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_WalkDown_0
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 668
+        width: 243
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ced088c2afb6b41bf271e023d7981a
+      internalID: -1093073016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_WalkDown_1
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 668
+        width: 236
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267c3ffc04301804f8f7fdefbabc793f
+      internalID: 448350706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_WalkDown_2
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 668
+        width: 239
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a28ba49c57df140a3462dae34b6683
+      internalID: -565982474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_WalkDown_3
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 668
+        width: 240
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7a3281505a84f499f6f575c43c1722
+      internalID: -196219469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_WalkUp_0
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 450
+        width: 243
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6e2b1f3a875614abe121f3d63e2809
+      internalID: 1117097923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_WalkUp_1
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 450
+        width: 236
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8b1d6b2b27e2940b98296d11ebac38
+      internalID: -997020015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_WalkUp_2
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 450
+        width: 239
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ce9196740b81d4c9b9af47a23c2731
+      internalID: -772356069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_WalkUp_3
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 450
+        width: 240
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b589a0074bfb715469bd86c43ec59921
+      internalID: 2113643014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_WalkLeft_0
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 233
+        width: 243
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac5b7be800d8d7448f851bff0e18290
+      internalID: 1129032572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_WalkLeft_1
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 233
+        width: 236
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f131132f8499b24ca5f02de880f9a53
+      internalID: 744295370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_WalkLeft_2
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 233
+        width: 239
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5a808189a82124eb87e036a3557981
+      internalID: -1110241585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_WalkLeft_3
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 233
+        width: 240
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f1bb792f5cab74980801e67c872c5e
+      internalID: 122555029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_WalkRight_0
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 17
+        width: 243
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60652f7febc986941846908403c2e082
+      internalID: 456675661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_WalkRight_1
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 17
+        width: 236
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c213815243ad9ea47bca183c18ab7c47
+      internalID: -1115009454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_WalkRight_2
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 17
+        width: 239
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8286a8cb07914c4991fe19624ae7579
+      internalID: 753362494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pirate_WalkRight_3
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 17
+        width: 240
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d39c4970205904b86c33647fbaa27d
+      internalID: -665198679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1684339c03d5e794cb113343c349fabc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pirate_IdleDown_0: 1291342238
+      Pirate_IdleDown_1: 963203066
+      Pirate_IdleDown_2: 1404640364
+      Pirate_IdleDown_3: 1800281756
+      Pirate_WalkDown_0: -1093073016
+      Pirate_WalkDown_1: 448350706
+      Pirate_WalkDown_2: -565982474
+      Pirate_WalkDown_3: -196219469
+      Pirate_WalkLeft_0: 1129032572
+      Pirate_WalkLeft_1: 744295370
+      Pirate_WalkLeft_2: -1110241585
+      Pirate_WalkLeft_3: 122555029
+      Pirate_WalkRight_0: 456675661
+      Pirate_WalkRight_1: -1115009454
+      Pirate_WalkRight_2: 753362494
+      Pirate_WalkRight_3: -665198679
+      Pirate_WalkUp_0: 1117097923
+      Pirate_WalkUp_1: -997020015
+      Pirate_WalkUp_2: -772356069
+      Pirate_WalkUp_3: 2113643014
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

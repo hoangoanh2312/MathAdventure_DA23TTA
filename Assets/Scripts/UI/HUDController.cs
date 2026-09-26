@@ -17,7 +17,7 @@ namespace MathAdventure.UI
         private void OnEnable() { GameEvents.StatsChanged += UpdateStats; }
         private void Start()
         {
-            health = FindFirstObjectByType<PlayerHealth>();
+            health = FindAnyObjectByType<PlayerHealth>();
             if (health != null) { health.OnHealthChanged += UpdateHealth; UpdateHealth(health.CurrentHealth, 3); }
             if (GameManager.Instance != null) GameManager.Instance.NotifyStatsChanged();
         }

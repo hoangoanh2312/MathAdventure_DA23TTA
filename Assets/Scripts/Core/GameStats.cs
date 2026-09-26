@@ -26,5 +26,14 @@ namespace MathAdventure.Core
             if (correct) CorrectAnswers++;
             else WrongAnswers++;
         }
+
+        public void Reset()
+        {
+            Score = 0;
+            Gold = 0;
+            Keys = 0;
+            CorrectAnswers = 0;
+            WrongAnswers = 0;
+        }
     }
 }

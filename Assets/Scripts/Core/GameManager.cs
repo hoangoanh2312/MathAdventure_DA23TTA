@@ -35,8 +35,10 @@ namespace MathAdventure.Core
         }
 
         public void AddKey(int amount = 1) { Stats.AddKey(amount); NotifyStatsChanged(); }
+        public void AddScore(int amount) { Stats.AddScore(amount); NotifyStatsChanged(); }
         public bool TrySpendKey() { var spent = Stats.TrySpendKey(); if (spent) NotifyStatsChanged(); return spent; }
         public void RecordAnswer(bool correct) { Stats.RecordAnswer(correct); NotifyStatsChanged(); }
+        public void ResetProgress() { Stats.Reset(); SetState(GameState.Playing); NotifyStatsChanged(); }
         public void NotifyStatsChanged() => GameEvents.RaiseStatsChanged(Stats);
     }
 }
